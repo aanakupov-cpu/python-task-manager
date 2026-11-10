@@ -25,6 +25,15 @@ def complete_task(task_id):
     return False
 
 
+def delete_task(task_id):
+    """Удаляет задачу по номеру. Возвращает True, если задача найдена."""
+    for task in tasks:
+        if task["id"] == task_id:
+            tasks.remove(task)
+            return True
+    return False
+
+
 def main():
     """Демонстрация работы менеджера задач."""
     add_task("Выучить Git")
