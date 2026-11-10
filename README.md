@@ -18,3 +18,10 @@
 ## Тесты
 
     python3 -m unittest discover -s tests -v
+
+## Ветки проекта
+
+- `main` — основная стабильная версия
+- `feature/add-function` — функция удаления задач
+- `feature/improve-interface` — интерактивное меню
+- `feature/documentation` — документация проекта
