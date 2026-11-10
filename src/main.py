@@ -1,5 +1,5 @@
 """Простой консольный менеджер задач."""
-# Title: Python Console Task Manager (Main Edition)
+# Title: Python Console Task Manager Pro v2.0
 tasks = []
 
 
