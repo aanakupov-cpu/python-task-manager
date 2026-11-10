@@ -46,3 +46,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def get_task_stats(tasks) -> dict:
+    """Возвращает статистику по задачам: всего, выполнено, осталось."""
+    total = len(tasks)
+    completed = sum(1 for t in tasks if getattr(t, 'completed', False) or (isinstance(t, dict) and t.get('done')))
+    return {"total": total, "completed": completed, "pending": total - completed}
