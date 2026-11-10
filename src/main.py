@@ -1,5 +1,5 @@
 """Простой консольный менеджер задач."""
-
+# Title: Task Manager Pro v2.0 (Feature Edition)
 tasks = []
 
 
