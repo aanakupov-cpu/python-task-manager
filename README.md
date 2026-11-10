@@ -32,3 +32,10 @@
 - `feature/add-function` — функция удаления задач
 - `feature/improve-interface` — интерактивное меню
 - `feature/documentation` — документация проекта
+
+## Ветки проекта
+
+- `main` — основная стабильная версия
+- `feature/add-function` — функция удаления задач
+- `feature/improve-interface` — интерактивное меню
+- `feature/documentation` — документация проекта
